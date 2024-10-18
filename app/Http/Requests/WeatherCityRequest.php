@@ -10,6 +10,7 @@ class WeatherCityRequest extends FormRequest
     {
         return [
             'city' => ['required', 'string'],
+            'limit'=>['string','sometimes']
         ];
     }
 
