@@ -3,7 +3,7 @@
 *Place your API key in the apikey-file at the root of the project.*
 
 #### If you want to use to use city name search, compose the json-file as shown in the example
-GET /weather/city
+GET /api/weather/city
 
 {
 
@@ -13,7 +13,7 @@ GET /weather/city
 
 
 #### If you want to use the search by the coordinates of your area, compose the json file as indicated in the example. Get the coordinates of your place from the geolocation system of your smartphone
-*GET /weather/geo*
+*GET /api/weather/geo*
 
 {
 
